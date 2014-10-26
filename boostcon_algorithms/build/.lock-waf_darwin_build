@@ -1,0 +1,8 @@
+argv = ['/usr/local/repos/waf/waf', '-v', 'configure']
+environ = {'TERM_SESSION_ID': 'F467BD54-17C8-40B3-B139-CBB49C557A95', 'SSH_AUTH_SOCK': '/tmp/launch-ez0O1w/Listeners', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '326', '__fish_bin_dir': '/Applications/fish.app/Contents/Resources/base/bin', 'SHELL': '/bin/zsh', 'CVS_RSH': 'ssh', 'LOGNAME': 'vguerra', 'USER': 'vguerra', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/local/bin/:/usr/local/mongo/bin/:/usr/local/node/bin/', 'HOME': '/Users/vguerra', 'DISPLAY': '/tmp/launch-M4HZHb/org.macosforge.xquartz:0', 'TMPDIR': '/var/folders/98/0wm7gs054pg6253drqt5wns00000gn/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', '__fish_sysconfdir': '/Applications/fish.app/Contents/Resources/base/etc/fish', 'TERM': 'vt100', 'Apple_PubSub_Socket_Render': '/tmp/launch-awNYyX/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', '__fish_datadir': '/Applications/fish.app/Contents/Resources/base/share/fish', '__CF_USER_TEXT_ENCODING': '0x1F5:0:0', 'PWD': '/usr/local/c.code/boostcon_algorithms', '__CHECKFIX1436934': '1', '__fish_help_dir': '/Applications/fish.app/Contents/Resources/base/share/doc/fish'}
+files = ['/usr/local/c.code/boostcon_algorithms/wscript']
+hash = 'x\x92@\xf3\x13`J`h\x11T\xb2?y!O'
+options = {'files': '', 'jobs': 4, 'verbose': 1, 'progress_bar': 0, 'top': '', 'prefix': '/usr/local/', 'destdir': '', 'keep': 0, 'zones': '', 'colors': 'auto', 'download': False, 'force': False, 'distcheck_args': None, 'targets': '', 'out': ''}
+out_dir = '/usr/local/c.code/boostcon_algorithms/build'
+run_dir = '/usr/local/c.code/boostcon_algorithms'
+top_dir = '/usr/local/c.code/boostcon_algorithms'

@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+top = '.'
+out = 'build'
+
+def options(opt):
+  opt.load('clangxx')
+
+def configure(conf):
+  conf.env['CXX'] = '/usr/local/llvm/bin/clang++'
+  conf.load('clangxx')
+  conf.load('clang_compilation_database')
+  #conf.env['DYLD_LIBRARY_PATH'] = '/usr/local/llvm/lib'
+
+def build(bld):
+  bld.program(
+      source    ='ordered_insert.cpp', 
+      target    ='ordered_insert',
+      includes  = ['.', '/usr/local/llvm/include/c++/v1/'],
+      libpath   = ['/usr/local/llvm/lib/'],
+      lib       = ['c++abi'],
+      linkflags = ['-v', '-stdlib=libc++'],
+      cxxflags  = ['-g', '-v', '-Weverything', '-Wno-c++98-compat', 
+        '-std=c++11', '-stdlib=libc++', '-nostdinc++', '-nodefaultlibs']
+      )

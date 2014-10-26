@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/usr/local/c.code/boostcon_algorithms/build", 
+    "command": "/usr/local/llvm/bin/clang++ -g -v -Weverything -Wno-c++98-compat -std=c++11 -stdlib=libc++ -nostdinc++ -nodefaultlibs -I/usr/local/c.code/boostcon_algorithms/build -I/usr/local/c.code/boostcon_algorithms -I/usr/local/llvm/include/c++/v1 ../ordered_insert.cpp -c -o /usr/local/c.code/boostcon_algorithms/build/ordered_insert.cpp.1.o", 
+    "file": "../ordered_insert.cpp"
+  }
+]
