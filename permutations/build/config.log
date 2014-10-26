@@ -1,0 +1,18 @@
+# project  configured on Sun Sep 14 12:02:14 2014 by
+# waf 1.8.0 (abi 98, python 20705f0 on darwin)
+# using /usr/local/repos/waf/waf -v configure
+#
+----------------------------------------
+Setting top to
+/usr/local/c.code/permutations
+----------------------------------------
+Setting out to
+/usr/local/c.code/permutations/build
+----------------------------------------
+Checking for program 'clang++'
+/usr/local/llvm/bin/clang++
+find program=['clang++'] paths=['/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/bin', '/opt/X11/bin', '/opt/local/bin/', '/usr/local/mongo/bin/', '/usr/local/node/bin/'] var='CXX' -> ['/usr/local/llvm/bin/clang++']
+----------------------------------------
+Checking for program 'ar'
+/usr/bin/ar
+find program=['ar'] paths=['/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/bin', '/opt/X11/bin', '/opt/local/bin/', '/usr/local/mongo/bin/', '/usr/local/node/bin/'] var='AR' -> ['/usr/bin/ar']

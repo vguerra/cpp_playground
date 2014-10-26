@@ -1,0 +1,8 @@
+argv = ['/usr/local/repos/waf/waf', '-v', 'configure']
+environ = {'TERM_SESSION_ID': '168593BB-626B-4EC1-BA52-1038187EEC4D', 'SSH_AUTH_SOCK': '/tmp/launch-cdXMIr/Listeners', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '326', '__fish_bin_dir': '/Applications/fish.app/Contents/Resources/base/bin', 'SHELL': '/bin/zsh', 'CVS_RSH': 'ssh', 'LOGNAME': 'vguerra', 'USER': 'vguerra', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/local/bin/:/usr/local/mongo/bin/:/usr/local/node/bin/', 'HOME': '/Users/vguerra', 'DISPLAY': '/tmp/launch-puAFg8/org.macosforge.xquartz:0', 'TMPDIR': '/var/folders/98/0wm7gs054pg6253drqt5wns00000gn/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', '__fish_sysconfdir': '/Applications/fish.app/Contents/Resources/base/etc/fish', 'TERM': 'vt100', 'Apple_PubSub_Socket_Render': '/tmp/launch-H90Esx/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', '__fish_datadir': '/Applications/fish.app/Contents/Resources/base/share/fish', '__CF_USER_TEXT_ENCODING': '0x1F5:0:0', 'PWD': '/usr/local/c.code/permutations', '__CHECKFIX1436934': '1', '__fish_help_dir': '/Applications/fish.app/Contents/Resources/base/share/doc/fish'}
+files = ['/usr/local/c.code/permutations/wscript']
+hash = '\x07\xa9\xe6[\x18*\xa9\x86\xf1\x98\xc5q\xa8\xea\x85\xaa'
+options = {'files': '', 'jobs': 4, 'verbose': 1, 'progress_bar': 0, 'top': '', 'prefix': '/usr/local/', 'destdir': '', 'keep': 0, 'zones': '', 'colors': 'auto', 'download': False, 'force': False, 'distcheck_args': None, 'targets': '', 'out': ''}
+out_dir = '/usr/local/c.code/permutations/build'
+run_dir = '/usr/local/c.code/permutations'
+top_dir = '/usr/local/c.code/permutations'

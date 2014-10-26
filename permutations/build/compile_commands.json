@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/usr/local/c.code/permutations/build", 
+    "command": "/usr/local/llvm/bin/clang++ -g -v -Weverything -Wno-c++98-compat -std=c++11 -stdlib=libc++ -nostdinc++ -nodefaultlibs -I/usr/local/c.code/permutations/build -I/usr/local/c.code/permutations -I/usr/local/llvm/include/c++/v1 ../perm.cpp -c -o /usr/local/c.code/permutations/build/perm.cpp.1.o", 
+    "file": "../perm.cpp"
+  }
+]
